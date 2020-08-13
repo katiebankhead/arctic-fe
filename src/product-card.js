@@ -10,8 +10,8 @@ export default function ProductCard(props) {
     let details = '/product/' + props.product.id
 
     return(
-        <Card style={{ width: '12rem' }}>
-            <Card.Img variant= "top" src={image}/>
+        <Card style={{ width: '16rem' }}>
+            <Card.Img variant="top" src={image}/>
             <Card.Body>
                 <Card.Title>{name}</Card.Title>
                 <Card.Text>${price}</Card.Text>

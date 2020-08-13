@@ -17,7 +17,7 @@ function TopContainer() {
             <bs.Navbar.Toggle aria-controls="basic-navbar-nav" />
             <bs.Navbar.Collapse id="basic-navbar-nav" />
             <bs.Nav className = 'mr-auto'>
-                <Link to='/cart' className='nav-link'>
+                <Link to='/cart' className='nav-link text-white'>
                     <i className="fas fa-shopping-cart"></i>
                     <span className = 'p-2'>{state.cartCount}</span>
                 </Link>

@@ -20,15 +20,15 @@ function App() {
     <Router>
     <bs.Container fluid className='p-0 min-vh-100 d-flex flex-column'>
       <bs.Row noGutters className='flex-grow-0 flex-shrink-0 shadow'>
-        <bs.Col className='px-3 py-2' style={{ backgroundColor: '#fcba03' }}>
+        <bs.Col className='px-3 py-2' style={{ backgroundColor: '#17446e' }}>
           <TopContainer />
         </bs.Col>
       </bs.Row>
       <bs.Row noGutters className='flex-grow-1'>
-        <bs.Col md='2' className='px-3 py-4 shadow' style={{ backgroundColor: '#1c03fc' }}>
+        <bs.Col md='2' className='px-3 py-4 shadow' style={{ backgroundColor: '#f0f0f0' }}>
           <LeftContainer />
         </bs.Col>
-        <bs.Col md='8'>
+        <bs.Col md='10'>
           <Switch>
             <Route path='/about'>
               <About />
@@ -56,11 +56,11 @@ function App() {
             </Route>
           </Switch>
         </bs.Col>
-        <bs.Col md='2' className='px-3 py-4 shadow' style={{ backgroundColor: '#268c34' }}>
+        {/* <bs.Col md='2' className='px-3 py-4 shadow' style={{ backgroundColor: '#268c34' }}>
           <RightContainer />
-        </bs.Col>
+        </bs.Col> */}
       </bs.Row>
-      <bs.Row noGutters className='flex-grow-0 flex-shrink-0 shadow' style={{ backgroundColor: '#e87474' }}>
+      <bs.Row noGutters className='flex-grow-0 flex-shrink-0 shadow' style={{ backgroundColor: '#17446e' }}>
         <BottomContainer />
       </bs.Row>
     </bs.Container>
